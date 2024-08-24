@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import prompt
 import random
-from brain_games.scripts.module import greetings, lose, congrats
 QUEST = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def is_even(num):
