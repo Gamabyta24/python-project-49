@@ -7,7 +7,7 @@ def is_even(num):
 
 def greetings():
     print("Welcome to the Brain Games!")
-    name = prompt.string("May I have your name?")
+    name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
     return name
 
