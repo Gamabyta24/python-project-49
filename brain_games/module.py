@@ -16,9 +16,9 @@ def ask_question(discription):
     print(discription)
 
 
-def lose(your_answer, true_answer, name):
+def lose(your, true_a, name):
     print(
-        f'"{your_answer}" is wrong answer ;(. Correct answer was "{true_answer}".\n',
+        f'"{your}" is wrong answer ;(. Correct answer was "{true_a}".\n',
         f"Let's try again, {name}!",
     )
 
