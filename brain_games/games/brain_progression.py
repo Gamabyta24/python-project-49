@@ -13,6 +13,7 @@ def game_challange():
     question = f"{progression}"
     return question, str(answer)
 
+
 def is_progression():
     """Return progression"""
     progression = []
@@ -22,4 +23,3 @@ def is_progression():
         progression.append(num_start)
         num_start = num_start + num_step
     return progression
-

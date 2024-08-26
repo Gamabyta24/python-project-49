@@ -16,6 +16,7 @@ def run_game_engine(game_module):
             return
     congrats(player_name)
 
+
 def greetings():
     """function that welcomes the user"""
     print("Welcome to the Brain Games!")

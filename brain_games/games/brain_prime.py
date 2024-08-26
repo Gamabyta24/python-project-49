@@ -9,8 +9,7 @@ def game_challange():
     answer = "yes" if is_prime(question) else "no"
     return question, answer
 
+
 def is_prime(num):
     """Return whether a number is prime"""
-    return num > 1 and all(num % i for i in range
-                                    (2, int(num**0.5) + 1))
-
+    return num > 1 and all(num % i for i in range(2, int(num**0.5) + 1))
